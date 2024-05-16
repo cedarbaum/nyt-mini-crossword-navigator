@@ -5,7 +5,6 @@
   "description": "Navigate through NYT Mini Crossword archives.",
   "permissions": [
     "activeTab",
-    "webNavigation",
     "storage"
   ],
   "content_scripts": [
@@ -21,10 +20,15 @@
     "128": "icons/icon.png"
   },
   "web_accessible_resources": [
-    "icons/next.svg",
-    "icons/auto-next.svg",
-    "icons/previous.svg",
-    "icons/auto-previous.svg",
-    "icons/autoplay.svg"
+    {
+      "resources": [
+        "icons/next.svg",
+        "icons/auto-next.svg",
+        "icons/previous.svg",
+        "icons/auto-previous.svg",
+        "icons/autoplay.svg"
+      ],
+      "matches": ["https://www.nytimes.com/*"]
+    }
   ]
 }
