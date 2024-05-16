@@ -1,0 +1,1 @@
+# nyt-mini-crossword-navigator
