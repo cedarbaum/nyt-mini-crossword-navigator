@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "NYT Mini Crossword Navigator",
   "version": "1.0",
   "description": "Navigate through NYT Mini Crossword archives.",
