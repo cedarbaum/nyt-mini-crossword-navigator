@@ -3,10 +3,7 @@
   "name": "NYT Mini Crossword Navigator",
   "version": "1.0",
   "description": "Navigate through NYT Mini Crossword archives.",
-  "permissions": [
-    "activeTab",
-    "storage"
-  ],
+  "permissions": ["storage"],
   "content_scripts": [
     {
       "matches": ["https://www.nytimes.com/crosswords/game/mini/*"],
